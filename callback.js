@@ -3,7 +3,7 @@ const newCookie = { name: 'Biscotti Cookies' };
 
 // Progression 1: create a function to get all the cookies
 function getCookies() {
-  let output = '';
+  let output = "";
   setTimeout(() => {
     cookies.forEach((cookie) => {
       output += `${cookie.name}<br>`;
